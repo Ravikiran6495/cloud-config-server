@@ -7,10 +7,16 @@ eureka:
   instance:
       hostname: localhost
 
+
+
+
 microservices:
   payment-service:
-    endponit:
-      uri:http://PAYMENT-SERVICE/payment/dopayment
+    endpoints:
+      endponit:
+        uri:http://PAYMENT-SERVICE/payment/dopayment
   order-service:
-    endponit:
-      uri:http://ORDER-SERVICE/order/bookorder
+    endpoints:
+      endponit:
+        uri:http://ORDER-SERVICE/order/bookorde
+  
